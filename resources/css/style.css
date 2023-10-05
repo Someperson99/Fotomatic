@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -231,17 +232,20 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding-top: 4rem;
-  padding-bottom: 2.875rem;
+  /* 64px padding for top and bottom with some additional padding
+  on the sides*/
+  padding: 4rem 5%;
   background-color: #f3f3f3;
-  border: black solid 1px;
 }
+
 
 .feature {
   flex: 1;
   padding: 2rem;
+  /* margin adds space between flex containers */
   margin: 0px 1.25rem;
   background-color: white;
+
 }
 
 .feature .image-container {
@@ -263,6 +267,7 @@ header .mobile {
   font-weight: 300;
   color: #4a4a4a;
 }
+
 
 @media only screen and (max-width: 890px) {
   .feature h2 {
