@@ -231,8 +231,10 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  padding-top: 4rem;
+  padding-bottom: 2.875rem;
   background-color: #f3f3f3;
+  border: black solid 1px;
 }
 
 .feature {
