@@ -50,6 +50,10 @@ header .content {
 }
 
 header .logo {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #4a4a4a;
+  font-family: Roboto-Mono-Regular;
   flex: 1;
 }
 
