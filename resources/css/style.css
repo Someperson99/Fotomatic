@@ -367,16 +367,22 @@ header .mobile {
   padding: 5rem 0;
 }
 
+#quotes-section .content {
+  padding: 5rem 0;
+}
+
 #quotes-section quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
+  font-size: 1.875rem;
   font-style: italic;
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
+  margin-left: 1.875rem;
   height: 1.875rem;
 }
 
@@ -390,7 +396,7 @@ header .mobile {
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
